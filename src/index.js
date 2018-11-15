@@ -9,7 +9,7 @@ const wxApis = [
 let api = Object.create(null)
 
 wxApis.forEach(name => {
-  api[name] = args => new Promise(function(resolve, reject) {
+  api[name] = args => new Promise(function (resolve, reject) {
     wx[name]({
       ...args,
 
