@@ -1,0 +1,29 @@
+{
+  "name": "redux-persist-weapp-storage",
+  "version": "1.2.0",
+  "description": "redux-persist storage engine for wechat app",
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "rollup -c",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "redux",
+    "persist",
+    "wechat",
+    "weapp",
+    "wxapp",
+    "mini",
+    "program"
+  ],
+  "author": "cuijiemmx",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.67.1",
+    "rollup-plugin-babel": "^4.0.3"
+  }
+}
